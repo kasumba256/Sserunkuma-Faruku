@@ -13,11 +13,11 @@ section
 {
     height: 100dvh;
     scroll-snap-align: start;
-    scroll-margin-top: 40px;
+    /*scroll-margin-top: 40px;*/
 
 }
 
-.index
+body
 {
     background-image: url("./Land\ page\ background.png");
     background-size: cover;
@@ -67,7 +67,6 @@ section
 {
     color: #ccc;
 }
-
 
 /*Responsive*/
 @media( max-width:768px)
