@@ -82,6 +82,27 @@ main .left
     color: #ccc;
 }
 
+
+.contact-button {
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.contact-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Focus ring */
+}
+
 /*Responsive*/
 @media( max-width:768px)
 {
@@ -121,3 +142,8 @@ main .left
         margin-bottom: 5px;
     }
 }
+
+
+
+
+
