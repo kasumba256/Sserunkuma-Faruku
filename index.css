@@ -25,6 +25,20 @@ body
     height:100dvh;
     width: vw;
 }
+main
+{
+    color: white;
+    border: 2px solid yellow;
+    margin-top: 200px;
+    
+
+    
+}
+main .left
+{
+    padding-left: 120px;
+}
+
 .nav-bar
 {
     display: flex;
