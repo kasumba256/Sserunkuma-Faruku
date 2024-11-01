@@ -25,19 +25,7 @@ body
     height:100dvh;
     width: vw;
 }
-main
-{
-    color: white;
-    border: 2px solid yellow;
-    margin-top: 200px;
-    
 
-    
-}
-main .left
-{
-    padding-left: 120px;
-}
 
 .nav-bar
 {
@@ -83,7 +71,96 @@ main .left
 }
 
 
-.contact-button {
+/*
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.left
+{
+    text-align: center;
+}
+.left h2,.left p
+{
+    margin: 0;
+}
+*/
+
+main
+{
+    display: flex;
+    align-items: center;
+    color: white;
+    border: 2px solid yellow;
+    height: 100vh;
+    
+
+    
+    
+
+}
+.left 
+{
+   border: 1px solid yellow;
+   font-size: 2rem;
+   margin-bottom: 1rem;
+    
+}
+.right
+{
+    border: 1px solid yellow;
+    height: 830px;
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.right img
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-button 
+{
+    
     background-color: #007BFF; /* Bootstrap primary color */
     color: white;
     border: none;
@@ -92,6 +169,10 @@ main .left
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s;
+    
+    
+
+    
 }
 
 .contact-button:hover {
@@ -102,6 +183,68 @@ main .left
     outline: none;
     box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Focus ring */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Responsive*/
 @media( max-width:768px)
@@ -124,6 +267,93 @@ main .left
         margin-bottom: 10px;
       }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width:480px)
  {
