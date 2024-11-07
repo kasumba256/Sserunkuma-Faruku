@@ -112,6 +112,7 @@ main
 .right
 {
     background-color: rgb(19, 19, 19);
+    border-radius: 5px;
     color: #fff;
     font-size: 18px;
    
@@ -151,6 +152,9 @@ p
 }
 
 
+
+
+/*
 footer {
     background-color: #333;
     color: white;
@@ -171,3 +175,4 @@ footer {
 .footer-content a:hover {
     text-decoration: underline;
 }
+    */
