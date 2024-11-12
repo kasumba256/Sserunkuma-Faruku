@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
     <link rel="stylesheet" href="./Contact.css">
+    <script src="./Contact.js"></script>
 </head>
 <body>
     <section>
@@ -24,11 +25,28 @@
         </nav> 
            
         <main>
+            <h1>Contact Us to get the best legal help</h1>
             <div class="left">
+                <form action="/" method="GET">
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname" required><br>
 
+                    <label for="fname">last Name:</label><br>
+                    <input type="text" id="lname" name="lname" required><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="phone">Phone:</label><br>
+                    <input type="tel" id="phone" name="phone" required><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                    <input type="submit" value="Send">
+                </form>
             </div>
             <div class="right">
-                
+
             </div>
         </main>
     </section>
