@@ -104,4 +104,54 @@ form
     height: 100vh;
     width: 400px;
     color:#fff;
+    
+}
+.phone 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+    
+    
+.fa-phone
+{
+    font-size: 60px;
+    
+}
+
+.mail
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.fa-envelope
+{
+    font-size: 60px;
+}
+
+.location
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-map-marker-alt
+{
+    font-size: 60px;
+}
+
+.bul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-building
+{
+    font-size: 60px;
 }
